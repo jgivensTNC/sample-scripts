@@ -3,11 +3,10 @@
 	name="LoggingConfig">
 	<Properties>
 		<Property name="log-path">logs/</Property>
-		<Property name="app">PROJECT_NAME_HERE_IN_LOWERCASE</Property>
+		<Property name="app">sample</Property>
 		<Property name="filename">${log-path}/${app}.log</Property>
 	</Properties>
 	<Filter type="ThresholdFilter" level="debug" />
-
 	<Appenders>
 		<Appender type="Console" name="STDOUT">
 			<Layout type="PatternLayout" pattern="%d %p %C{1}.%M %m %ex%n" /><!-- 
@@ -35,7 +34,6 @@
 			</Layout>
 		</Appender>
 	</Appenders>
-
 	<Loggers>
 		<Logger level="ERROR" name="${app}PageClasses">
 			<AppenderRef ref="File" />
@@ -70,5 +68,4 @@
 			<AppenderRef level="DEBUG" ref="STDOUT" />
 		</Root>
 	</Loggers>
-
 </Configuration>

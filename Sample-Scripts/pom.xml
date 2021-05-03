@@ -2,8 +2,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>ati.va.REPLACE_WITH_LOWER_CASE_PROJECT_NAME</groupId>
-	<artifactId>REPLACE_WITH_LOWER_CASE_PROJECT_NAME.scripts</artifactId>
+	<groupId>ati.va.sample</groupId>
+	<artifactId>sample.scripts</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
@@ -29,7 +29,11 @@
 		</plugins>
 	</build>
 	<dependencies>
-		
+		<dependency>
+			<groupId>ati.va.sample</groupId>
+			<artifactId>sample.pages</artifactId>
+			<version>0.0.1-SNAPSHOT</version> 
+		</dependency>
 	</dependencies>
 	<distributionManagement>
 		<repository>

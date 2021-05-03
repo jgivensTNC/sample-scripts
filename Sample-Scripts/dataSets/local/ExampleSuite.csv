@@ -1,4 +1,0 @@
-DATA_ID~TEST_EXECUTION~SCRIPT
-SomeTestId~RUN~testScripts.executionScripts.testing.LoginTest
-AnotherTestId~SKIP~testScripts.executionScripts.testing.AnotherTest
-FinalTestId~Tue, 29 Oct 2019 14:54:34~testScripts.executionScripts.testing.FinalTest
